@@ -4,7 +4,7 @@
            fetch="https://android.googlesource.com/"/>
   <remote  name="aospSX"
            fetch="git://github.com/aospSX/"
-           revision="refs/tags/v1.0.0"/>
+           revision="refs/tags/v1.0.1"/>
   <remote  name="caf"
            fetch="git://codeaurora.org/"
            revision="ics_chocolate"/>
@@ -202,6 +202,7 @@
   <project path="external/dhcpcd" name="platform_external_dhcpcd" remote="aospSX"/>
   <project path="external/kernel-headers" name="platform_external_kernel-headers" remote="aospSX"/>
   <project path="external/iproute2" name="platform_external_iproute2" remote="aospSX"/>
+  <project path="external/iptables" name="platform_external_iptables" remote="aospSX"/>
   <project path="external/skia" name="platform_external_skia" remote="aospSX"/>
   <project path="external/sqlite" name="platform_external_sqlite" remote="aospSX"/>
   <project path="external/webkit" name="platform_external_webkit" remote="aospSX"/>
@@ -294,7 +295,6 @@
   <!-- CyanogenMod Projects -->
   <project name="CyanogenMod/android_external_bash" path="external/bash" remote="github" revision="ics"/>
   <project name="CyanogenMod/android_external_embunit" path="external/embunit" remote="github" revision="ics"/>
-  <project name="CyanogenMod/android_external_iptables" path="external/iptables" remote="github" revision="ics"/>
   <project name="CyanogenMod/android_external_libncurses" path="external/libncurses" remote="github" revision="ics"/>
   <project name="CyanogenMod/android_external_libpcap" path="external/libpcap" remote="github" revision="ics"/>
   <project name="CyanogenMod/android_external_lzo" path="external/lzo" remote="github" revision="ics"/>
