@@ -1,0 +1,18 @@
+Getting Started
+---------------
+
+To get started with Android, you'll need to get familiar with [Git and Repo] (http://source.android.com/download/using-repo).
+
+To initialize your local repository using the aospSX trees, use a command like this:
+
+    repo init -u git://github.com/aospSX/android.git -b v1.0.0 --depth=1
+
+Then to sync up:
+
+    repo sync
+
+To build:
+
+    . build/envsetup.sh
+    lunch aospsx_glacier-userdebug
+    make -j4 aospsx
