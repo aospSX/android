@@ -5,7 +5,7 @@
            revision="jb-mr1.1-release"/>
   <remote  name="ASX"
            fetch="git://github.com/aospSX/"
-           revision="refs/tags/v1.0.7"/>
+           revision="refs/tags/v1.0.8"/>
   <remote  name="caf"
            fetch="git://codeaurora.org/quic/la/"
            revision="jb_mr1_rb4.19"/>
